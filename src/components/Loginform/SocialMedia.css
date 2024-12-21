@@ -1,0 +1,47 @@
+.social-media-container {
+    margin: 20px;
+    max-width: 600px;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.post-btn {
+    align-self: flex-end;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.posts-feed {
+    margin-top: 20px;
+}
+
+.post-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-item h4 {
+    margin: 0;
+    color: #007bff;
+}
+
+.post-item p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}

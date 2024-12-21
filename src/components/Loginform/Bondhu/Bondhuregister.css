@@ -1,0 +1,126 @@
+.bondhu-register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow-y: auto;
+    /* Enable scrolling if needed */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(2px);
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    max-width: 280px;
+    /* Small width to ensure it fits */
+    position: relative;
+    /* Ensure the form is positioned correctly */
+}
+
+h2 {
+    font-size: 1.4rem;
+    /* Smaller title */
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    /* Minimal padding */
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    margin-bottom: 8px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 0.75rem;
+    /* Smaller label font size */
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 5px;
+    /* Minimal padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    /* Smaller font size */
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 6px 8px;
+    /* Minimal padding */
+    font-size: 0.85rem;
+    /* Smaller button text */
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 600px) {
+    .bondhu-register-container {
+        padding: 10px;
+        max-width: 100%;
+        box-shadow: none;
+        height: auto;
+    }
+
+    form {
+        padding: 8px;
+    }
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .popup-inner {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    
+        .popup-inner h2 {
+            margin-bottom: 15px;
+        }
+    
+        .popup-inner p {
+            margin-bottom: 10px;
+        }
+    
+        .popup-inner button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+}

@@ -1,0 +1,82 @@
+# Node modules
+/node_modules
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows-specific system files
+$RECYCLE.BIN/
+
+# Coverage and test results
+coverage/
+.nyc_output/
+*.lcov
+
+# Debug files
+*.stackdump
+
+# Temporary lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Static build files
+*.bundle.js
+*.bundle.map
+
+# Storybook
+.out
+.storybook-out
+
+# Bower dependencies
+bower_components/
+
+# Next.js
+.next/
+out/
+
+# Gatsby
+.cache/
+public/
+
+# Nuxt.js
+.nuxt/
+
+# Temporary directories
+.tmp/
+.cache/
+
+# Mac-specific (just in case collaborating with macOS users)
+.DS_Store

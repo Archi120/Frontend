@@ -1,0 +1,21 @@
+.homepage-content {
+    margin-left: 250px;
+    /* Adjust this based on your sidebar width */
+    padding: 40px;
+    width: calc(100% - 250px);
+    transition: margin-left 0.3s ease;
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}

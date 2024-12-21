@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a52929;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Assistance Page Container */
+.assistance-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background: #e27070;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Title */
+.assistance-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Help Options Container */
+.help-options {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Help Option Buttons */
+.help-option {
+    flex: 1;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.help-option:hover {
+    background-color: #0056b3;
+}
+
+/* Form Styles */
+form {
+    width: 100%;
+}
+
+form h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+}
+
+form button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+form .location-info {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+}
+
+/* Get Location Button */
+form .get-location-btn {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form .get-location-btn:hover {
+    background-color: #117a8b;
+}
